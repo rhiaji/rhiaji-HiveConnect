@@ -1,0 +1,40 @@
+.container-head {
+  font-size: 30px;
+}
+
+.container-content {
+  display: flex;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  margin: 20px 20px; /* Add margin for spacing between sections */
+}
+
+.content-box img {
+  width: 400px;
+  height: 200px;
+  transition: transform 0.2s; /* Add a smooth transition for the zoom effect */
+  cursor: pointer;
+}
+
+.content-box p {
+  letter-spacing: 2px;
+  line-height: 1.4; /* Adjust this value as needed */
+}
+
+.content-box img:hover {
+  transform: scale(
+    1.1
+  ); /* Zoom in on hover (adjust the scale factor as needed) */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
