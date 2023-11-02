@@ -18,6 +18,7 @@
 .content-box img {
   width: 400px;
   height: 200px;
+  border-radius: 20px;
   transition: transform 0.2s; /* Add a smooth transition for the zoom effect */
   cursor: pointer;
 }
@@ -28,9 +29,7 @@
 }
 
 .content-box img:hover {
-  transform: scale(
-    1.1
-  ); /* Zoom in on hover (adjust the scale factor as needed) */
+  transform: scale(1.1); /* Zoom in on hover (adjust the scale factor as needed) */
 }
 
 .row {
